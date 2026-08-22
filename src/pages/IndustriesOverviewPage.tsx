@@ -29,7 +29,7 @@ const SECTORS: SectorItem[] = [
     focus: 'Floor pacing, live recipe costing & supplier ordering',
     summary: 'Directly sync POS sales, prep sheets, and inventory so your kitchen and management see exact margins every night.',
     metric: 'Real-time gross profit per dish',
-    image: 'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1600&q=85'
+    image: '/images/industries/restaurants-hero.jpg'
   },
   {
     id: 'construction',
@@ -39,7 +39,7 @@ const SECTORS: SectorItem[] = [
     focus: 'Daily site logs, sub-contractors & variation claims',
     summary: 'Connect job sites to accounting. Log variations on mobile with site photos and send client approvals the same afternoon.',
     metric: 'Zero unbilled scope changes',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=85'
+    image: '/images/industries/construction-hero.jpg'
   },
   {
     id: 'delivery-logistics',
@@ -49,7 +49,7 @@ const SECTORS: SectorItem[] = [
     focus: 'Driver dispatch, digital POD & automated billing',
     summary: 'Automate route dispatch, digital signature capture at the delivery dock, and instant invoice generation on drop completion.',
     metric: 'Same-day freight invoicing',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=85'
+    image: '/images/industries/logistics-hero.jpg'
   },
   {
     id: 'retail',
@@ -59,7 +59,7 @@ const SECTORS: SectorItem[] = [
     focus: 'Inventory sync, warehouse orders & POS alignment',
     summary: 'Keep physical stores, e-commerce channels, and warehouse stock levels matched with automated restock triggers.',
     metric: 'Real-time multi-location stock levels',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=85'
+    image: '/images/industries/retail-hero.jpg'
   },
   {
     id: 'professional-services',
@@ -69,7 +69,7 @@ const SECTORS: SectorItem[] = [
     focus: 'Client onboarding, team time-tracking & milestone billing',
     summary: 'Streamline project setup, contract signing, timesheet approvals, and progress invoicing into a single structured pipeline.',
     metric: 'Immediate milestone invoice trigger',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=85'
+    image: '/images/industries/professional-services-hero.jpg'
   },
   {
     id: 'hospitality',
@@ -79,7 +79,7 @@ const SECTORS: SectorItem[] = [
     focus: 'Direct reservations, housekeeping status & guest profiles',
     summary: 'Connect your front desk, housekeeping team, and event booking systems to minimize commission fees and turn rooms faster.',
     metric: 'Instant room status updates',
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85'
+    image: '/images/industries/hospitality-hero.jpg'
   }
 ];
 
@@ -190,7 +190,7 @@ export const IndustriesOverviewPage: React.FC<IndustriesOverviewPageProps> = ({ 
                   <img
                     src={sector.image}
                     alt={sector.name}
-                    className="w-full h-full object-cover grayscale contrast-110 opacity-90 group-hover:scale-105 group-hover:opacity-100 transition-transform duration-700 ease-out"
+                    className="w-full h-full object-cover contrast-105 opacity-95 group-hover:scale-105 group-hover:opacity-100 transition-transform duration-700 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent pointer-events-none" />
                   
@@ -246,7 +246,7 @@ export const IndustriesOverviewPage: React.FC<IndustriesOverviewPageProps> = ({ 
                 CUSTOM &amp; HYBRID ENTERPRISES
               </span>
               <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#0F1115] font-inter">
-                Don't see your specific industry listed?
+                Don't See Your Specific Industry Listed?
               </h3>
               <p className="text-sm sm:text-base text-[#52555C] font-normal leading-relaxed">
                 Whether you manage wholesale supply chains, specialized medical clinics, boutique advisory firms, or high-volume multi-entity companies, our 5-systems architecture is built for any business with operational handoffs, disconnected software, and manual bottlenecks.
