@@ -22,37 +22,37 @@ export const IndustriesWeServeSection: React.FC<IndustriesWeServeSectionProps> =
       id: 'restaurants',
       title: 'Restaurants & F&B',
       subheading: 'Kitchen Sync, Reservations & Margin Protection',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop'
+      image: '/images/industries/restaurants-hero.jpg'
     },
     {
       id: 'construction',
       title: 'Construction & Trades',
       subheading: 'Job Costing, Subcontractors & Variation Capture',
-      image: 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?q=80&w=1200&auto=format&fit=crop'
+      image: '/images/industries/construction-hero.jpg'
     },
     {
-      id: 'logistics',
+      id: 'delivery-logistics',
       title: 'Delivery & Logistics',
       subheading: 'Fleet Dispatch, Invoicing & Delivery Tracking',
-      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop'
+      image: '/images/industries/logistics-hero.jpg'
     },
     {
       id: 'retail',
       title: 'Retail & Multi-Site Commerce',
       subheading: 'Omnichannel Stock Flow & Store Performance',
-      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop'
+      image: '/images/industries/retail-hero.jpg'
     },
     {
       id: 'professional-services',
       title: 'Professional Services',
       subheading: 'Client Onboarding, Scope Control & Billing Cycles',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop'
+      image: '/images/industries/professional-services-hero.jpg'
     },
     {
       id: 'hospitality',
       title: 'Hospitality & Hotels',
       subheading: 'Guest Experience, Front Office & Department Sync',
-      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+      image: '/images/industries/hospitality-hero.jpg'
     }
   ];
 
