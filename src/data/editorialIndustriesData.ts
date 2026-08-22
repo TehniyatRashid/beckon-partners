@@ -52,15 +52,15 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     name: 'Restaurants & F&B',
     eyebrow: 'RESTAURANTS & F&B',
     heroHeadline: {
-      line1: 'Better systems behind',
-      line2: 'every service.'
+      line1: 'Better Systems Behind',
+      line2: 'Every Service.'
     },
     heroDescription: 'Restaurants move fast. When reservations, revenue, operations and teams work across disconnected systems, small inefficiencies quickly become expensive. Beckon connects what already runs your business so it can operate as one.',
-    heroImage: 'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1600&q=85',
+    heroImage: '/images/industries/restaurants-hero.jpg',
     heroImageAlt: 'Restaurant dining room and professional service team',
     
     realityEyebrow: 'THE REALITY',
-    realityHeadline: "The pressure isn't always visible.",
+    realityHeadline: "The Pressure Isn't Always Visible.",
     bottlenecks: [
       {
         number: '01',
@@ -99,8 +99,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
 
     fiveSystemsEyebrow: 'RESTAURANTS THROUGH THE BECKON LENS',
     fiveSystemsHeadline: {
-      line1: 'Five systems.',
-      line2: 'One better-running business.'
+      line1: 'Five Systems.',
+      line2: 'One Better-Running Business.'
     },
     systems: [
       {
@@ -140,15 +140,15 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     name: 'Delivery & Logistics',
     eyebrow: 'DELIVERY & LOGISTICS',
     heroHeadline: {
-      line1: 'A better way to keep',
-      line2: 'deliveries moving.'
+      line1: 'A Better Way to Keep',
+      line2: 'Deliveries Moving.'
     },
     heroDescription: 'When bookings, dispatch, drivers, customers and billing operate across disconnected processes, small delays become expensive. Beckon connects the systems behind the operation so the business can move with greater clarity and control.',
-    heroImage: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=85',
+    heroImage: '/images/industries/logistics-hero.jpg',
     heroImageAlt: 'Logistics fleet and warehouse operations in motion',
     
     realityEyebrow: 'THE REALITY',
-    realityHeadline: "The pressure isn't always visible.",
+    realityHeadline: "The Pressure Isn't Always Visible.",
     bottlenecks: [
       {
         number: '01',
@@ -187,8 +187,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
 
     fiveSystemsEyebrow: 'LOGISTICS THROUGH THE BECKON LENS',
     fiveSystemsHeadline: {
-      line1: 'Five systems.',
-      line2: 'One better-running business.'
+      line1: 'Five Systems.',
+      line2: 'One Better-Running Business.'
     },
     systems: [
       {
@@ -228,15 +228,15 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     name: 'Construction & Field Trades',
     eyebrow: 'CONSTRUCTION & FIELD TRADES',
     heroHeadline: {
-      line1: 'Clarity and control across',
-      line2: 'every project.'
+      line1: 'Clarity and Control Across',
+      line2: 'Every Project.'
     },
     heroDescription: 'Construction businesses manage moving parts every day — from job site teams and estimating to material costs, subcontractor schedules and client communications. Beckon connects the systems behind your projects so you can protect margins and build with certainty.',
-    heroImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1600&q=85',
+    heroImage: '/images/industries/construction-hero.jpg',
     heroImageAlt: 'Architectural construction project site and engineers',
     
     realityEyebrow: 'THE REALITY',
-    realityHeadline: "The pressure isn't always visible.",
+    realityHeadline: "The Pressure Isn't Always Visible.",
     bottlenecks: [
       {
         number: '01',
@@ -275,8 +275,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
 
     fiveSystemsEyebrow: 'CONSTRUCTION THROUGH THE BECKON LENS',
     fiveSystemsHeadline: {
-      line1: 'Five systems.',
-      line2: 'One better-running business.'
+      line1: 'Five Systems.',
+      line2: 'One Better-Running Business.'
     },
     systems: [
       {
@@ -316,15 +316,15 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     name: 'Retail & Multi-Site Commerce',
     eyebrow: 'RETAIL & MULTI-SITE COMMERCE',
     heroHeadline: {
-      line1: 'Consistent operations across',
-      line2: 'every store.'
+      line1: 'Consistent Operations Across',
+      line2: 'Every Store.'
     },
     heroDescription: 'Multi-location retail demands seamless alignment between customer sales, inventory flow, staffing, and store performance. Beckon connects your retail operations so each location operates with identical precision and complete visibility.',
-    heroImage: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=85',
+    heroImage: '/images/industries/retail-hero.jpg',
     heroImageAlt: 'Premium retail storefront and curated merchandise display',
     
     realityEyebrow: 'THE REALITY',
-    realityHeadline: "The pressure isn't always visible.",
+    realityHeadline: "The Pressure Isn't Always Visible.",
     bottlenecks: [
       {
         number: '01',
@@ -363,8 +363,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
 
     fiveSystemsEyebrow: 'RETAIL THROUGH THE BECKON LENS',
     fiveSystemsHeadline: {
-      line1: 'Five systems.',
-      line2: 'One better-running business.'
+      line1: 'Five Systems.',
+      line2: 'One Better-Running Business.'
     },
     systems: [
       {
@@ -404,15 +404,15 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     name: 'Hospitality & Hotels',
     eyebrow: 'HOSPITALITY & HOTELS',
     heroHeadline: {
-      line1: 'Exceptional guest experience',
-      line2: 'through connected operations.'
+      line1: 'Exceptional Guest Experience',
+      line2: 'Through Connected Operations.'
     },
     heroDescription: 'When guest reservations, front desk workflows, housekeeping, event bookings and revenue management run independently, quality and margins suffer. Beckon unifies the operational systems behind hospitality so your staff can focus entirely on the guest.',
-    heroImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85',
+    heroImage: '/images/industries/hospitality-hero.jpg',
     heroImageAlt: 'Luxury boutique hotel entrance and welcoming reception lounge',
     
     realityEyebrow: 'THE REALITY',
-    realityHeadline: "The pressure isn't always visible.",
+    realityHeadline: "The Pressure Isn't Always Visible.",
     bottlenecks: [
       {
         number: '01',
@@ -451,8 +451,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
 
     fiveSystemsEyebrow: 'HOSPITALITY THROUGH THE BECKON LENS',
     fiveSystemsHeadline: {
-      line1: 'Five systems.',
-      line2: 'One better-running business.'
+      line1: 'Five Systems.',
+      line2: 'One Better-Running Business.'
     },
     systems: [
       {
@@ -492,15 +492,15 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     name: 'Professional Services',
     eyebrow: 'PROFESSIONAL SERVICES',
     heroHeadline: {
-      line1: 'More client value.',
-      line2: 'Less operational friction.'
+      line1: 'More Client Value.',
+      line2: 'Less Operational Friction.'
     },
     heroDescription: 'Consultancies, legal practices and professional firms thrive on expertise, but often stall on manual client onboarding, untracked time, fragmented communications and delayed billing. Beckon connects your practice workflows so fee-earners can focus on delivery.',
-    heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85',
+    heroImage: '/images/industries/professional-services-hero.jpg',
     heroImageAlt: 'Modern professional consulting boardroom and architectural office space',
     
     realityEyebrow: 'THE REALITY',
-    realityHeadline: "The pressure isn't always visible.",
+    realityHeadline: "The Pressure Isn't Always Visible.",
     bottlenecks: [
       {
         number: '01',
@@ -539,8 +539,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
 
     fiveSystemsEyebrow: 'PROFESSIONAL SERVICES THROUGH THE BECKON LENS',
     fiveSystemsHeadline: {
-      line1: 'Five systems.',
-      line2: 'One better-running business.'
+      line1: 'Five Systems.',
+      line2: 'One Better-Running Business.'
     },
     systems: [
       {
@@ -574,3 +574,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     pauseImageAlt: 'Architectural corporate glass tower reflecting clean sky'
   }
 };
+
+EDITORIAL_INDUSTRIES['delivery-logistics'] = EDITORIAL_INDUSTRIES.logistics;
+EDITORIAL_INDUSTRIES['professional-services'] = EDITORIAL_INDUSTRIES.professional_services;
+
