@@ -118,7 +118,7 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
             <img
               src={data.heroImage}
               alt={data.heroImageAlt}
-              className="w-full h-full object-cover grayscale contrast-115 opacity-90 transition-transform duration-1000 ease-out hover:scale-105"
+              className="w-full h-full object-cover contrast-105 opacity-95 transition-transform duration-1000 ease-out hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none" />
           </motion.div>
@@ -484,7 +484,7 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
             <img
               src={data.pauseImage}
               alt={data.pauseImageAlt}
-              className="w-full h-full object-cover grayscale contrast-115 opacity-90 transition-transform duration-1000 ease-out hover:scale-105"
+              className="w-full h-full object-cover contrast-105 opacity-95 transition-transform duration-1000 ease-out hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
           </div>
@@ -509,7 +509,7 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
                 SPECIALIZED &amp; HYBRID BUSINESSES
               </span>
               <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#0F1115] font-inter">
-                Can't find your specific industry?
+                Can't Find Your Specific Industry?
               </h3>
               <p className="text-sm sm:text-base text-[#52555C] font-normal leading-relaxed">
                 Whether you operate in manufacturing, specialized clinical care, wholesale distribution, or run a hybrid multi-unit model, our 5-systems architecture applies directly to your team's operational handoffs, legacy software, and data flow.
