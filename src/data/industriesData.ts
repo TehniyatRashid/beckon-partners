@@ -13,7 +13,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'RESTAURANT & F&B',
       suffix: 'SYSTEMS'
     },
-    heroImage: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/industries/restaurants-hero.jpg',
     teamImage1: 'https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -126,7 +126,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'CONSTRUCTION & FIELD',
       suffix: 'OPERATIONS'
     },
-    heroImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/industries/construction-hero.jpg',
     teamImage1: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -239,7 +239,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'DELIVERY & FLEET',
       suffix: 'LOGISTICS'
     },
-    heroImage: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/industries/logistics-hero.jpg',
     teamImage1: 'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -341,7 +341,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'OMNICHANNEL RETAIL',
       suffix: 'SYSTEMS'
     },
-    heroImage: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/industries/retail-hero.jpg',
     teamImage1: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -443,7 +443,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'PROFESSIONAL SERVICES',
       suffix: 'SYSTEMS'
     },
-    heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/industries/professional-services-hero.jpg',
     teamImage1: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -545,7 +545,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'HOSPITALITY & HOTEL',
       suffix: 'SYSTEMS'
     },
-    heroImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/industries/hospitality-hero.jpg',
     teamImage1: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80',
     corePillars: [
