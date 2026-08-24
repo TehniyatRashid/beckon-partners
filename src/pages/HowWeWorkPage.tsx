@@ -368,7 +368,6 @@ export const HowWeWorkPage: React.FC<HowWeWorkPageProps> = ({ onNavigate }) => {
               <button
                 onClick={() => {
                   onNavigate('/assessment');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="w-full py-3 rounded-xl bg-white text-[#0B0C0E] hover:bg-[#C7A472] transition-colors text-xs font-bold font-sans flex items-center justify-center gap-2 cursor-pointer mt-4"
               >
@@ -402,7 +401,6 @@ export const HowWeWorkPage: React.FC<HowWeWorkPageProps> = ({ onNavigate }) => {
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-3.5 rounded-full text-xs font-semibold bg-white text-[#0B0C0E] hover:bg-[#C7A472] transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md"
             >
