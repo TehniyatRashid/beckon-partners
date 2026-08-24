@@ -546,7 +546,7 @@ export const INDUSTRIES: Industry[] = [
       suffix: 'SYSTEMS'
     },
     heroImage: '/images/industries/hospitality-hero.jpg',
-    teamImage1: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80',
+    teamImage1: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80',
     corePillars: [
       {
