@@ -109,7 +109,6 @@ export const EcosystemPage: React.FC<EcosystemPageProps> = ({ onNavigate }) => {
           <button
             onClick={() => {
               onNavigate('/assessment');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className="px-8 py-3.5 rounded-xl text-xs font-bold bg-zinc-900 text-white hover:bg-[#C5A059] hover:text-zinc-950 transition-all inline-flex items-center gap-2 cursor-pointer shadow-md"
           >
