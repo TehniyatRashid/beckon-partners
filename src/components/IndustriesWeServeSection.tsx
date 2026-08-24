@@ -87,7 +87,6 @@ export const IndustriesWeServeSection: React.FC<IndustriesWeServeSectionProps> =
                   setActiveId(ind.id);
                   if (onNavigate) {
                     onNavigate(`/industries/${ind.id}` as RoutePath);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
                   }
                 }}
                 layout
@@ -147,7 +146,6 @@ export const IndustriesWeServeSection: React.FC<IndustriesWeServeSectionProps> =
             onClick={() => {
               if (onNavigate) {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }
             }}
             className="text-white hover:text-[#C7A472] font-medium transition-colors inline-flex items-center gap-1.5 cursor-pointer shrink-0 underline decoration-[#C7A472] underline-offset-4"
