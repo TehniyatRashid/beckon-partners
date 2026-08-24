@@ -404,7 +404,7 @@ export const AssessmentPage: React.FC<AssessmentPageProps> = ({ onNavigate }) =>
       recoverableTime
     };
 
-    const appsScriptUrl = import.meta.env.VITE_GOOGLE_SHEET_WEBHOOK_URL || "";
+    const appsScriptUrl = ((import.meta as any).env?.VITE_GOOGLE_SHEET_WEBHOOK_URL as string) || "";
 
     if (appsScriptUrl) {
       try {
@@ -1301,7 +1301,6 @@ export const AssessmentPage: React.FC<AssessmentPageProps> = ({ onNavigate }) =>
                   type="button"
                   onClick={() => {
                     onNavigate('/');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                   className="w-full sm:w-auto px-6 py-2.5 rounded-full bg-white text-[#0B0C0E] hover:bg-[#F4EFE6] font-semibold text-xs transition-all cursor-pointer"
                 >
