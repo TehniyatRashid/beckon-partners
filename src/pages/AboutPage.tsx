@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RoutePath } from '../types';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
@@ -17,14 +17,27 @@ import { usePageScrollTriggers } from '../hooks/useGsapScrollTrigger';
 
 interface AboutPageProps {
   onNavigate: (route: RoutePath) => void;
+  currentRoute?: RoutePath;
 }
 
-export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
+export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, currentRoute }) => {
   const containerRef = usePageScrollTriggers();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
   const [activeCompositionTab, setActiveCompositionTab] = useState<number>(0);
+
+  useEffect(() => {
+    if (currentRoute === '/about#faq') {
+      const el = document.getElementById('faq');
+      if (el) {
+        const timer = setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }, 150);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [currentRoute]);
 
 
   const multidisciplinaryAreas = [
@@ -535,7 +548,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="inline-flex items-center gap-2 text-xs font-manrope font-bold uppercase tracking-widest text-[#0F1115] hover:text-[#856A41] transition-colors cursor-pointer"
             >
@@ -618,6 +630,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
           07 — FAQ (Minimal Accordion, No Overload)
           ========================================================================= */}
       <motion.section 
+        id="faq"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -710,7 +723,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0B0C0E] text-xs font-manrope font-bold tracking-widest uppercase rounded-[8px] hover:bg-[#EAEAEA] transition-colors cursor-pointer shadow-md"
             >
