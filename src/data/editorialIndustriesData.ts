@@ -409,7 +409,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     },
     heroDescription: 'When guest reservations, front desk workflows, housekeeping, event bookings and revenue management run independently, quality and margins suffer. Beckon unifies the operational systems behind hospitality so your staff can focus entirely on the guest.',
     heroImage: '/images/industries/hospitality-hero.jpg',
-    heroImageAlt: 'Luxury boutique hotel entrance and welcoming reception lounge',
+    heroImageAlt: 'Bedside tablet device displaying integrated guest service and hotel system controls in a luxury suite',
     
     realityEyebrow: 'THE REALITY',
     realityHeadline: "The Pressure Isn't Always Visible.",
@@ -482,8 +482,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1800&q=85',
-    pauseImageAlt: 'Warm and tranquil guest suite in a luxury hotel'
+    pauseImage: '/images/industries/hospitality-pause.jpg',
+    pauseImageAlt: 'Wall-mounted tablet display showing smart hotel reception overview and dashboard interface'
   },
 
   professional_services: {
