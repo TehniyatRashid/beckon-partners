@@ -90,7 +90,6 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
               <button
                 onClick={() => {
                   onNavigate('/assessment');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="inline-flex items-center justify-center px-7 py-3.5 bg-[#0F1115] text-[#FAF8F5] text-xs font-manrope font-semibold tracking-widest uppercase rounded-[8px] hover:bg-[#2A2D35] transition-colors cursor-pointer border border-[#0F1115]"
               >
@@ -99,7 +98,6 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
               <button
                 onClick={() => {
                   onNavigate('/about');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="text-xs font-manrope font-medium tracking-wider text-[#52555C] hover:text-[#0F1115] transition-colors inline-flex items-center gap-1 cursor-pointer pt-1"
               >
@@ -274,9 +272,9 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
                 })}
               </div>
 
-              {/* Connecting Vector Lines in Connected / Aligned Phase */}
+              {/* Connecting Vector Lines in Connected Phase */}
               <AnimatePresence>
-                {activeVisualPhase !== 'disconnected' && (
+                {activeVisualPhase === 'connected' && (
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -520,7 +518,6 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
               <button
                 onClick={() => {
                   onNavigate('/assessment');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="inline-flex items-center justify-center px-7 py-4 bg-[#0B0C0E] text-white text-xs font-manrope font-bold tracking-wider uppercase rounded-[10px] hover:bg-[#856A41] transition-all cursor-pointer shadow-md hover:shadow-lg gap-2"
               >
@@ -530,7 +527,6 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
               <button
                 onClick={() => {
                   onNavigate('/industries');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="inline-flex items-center justify-center px-6 py-3 bg-transparent text-[#52555C] hover:text-[#0F1115] text-xs font-manrope font-semibold tracking-wider uppercase rounded-[10px] hover:bg-[#FAF8F5] transition-colors cursor-pointer border border-[#D5D0C6]"
               >
@@ -577,7 +573,6 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0B0C0E] text-xs font-manrope font-bold tracking-widest uppercase rounded-[8px] hover:bg-[#EAEAEA] transition-colors cursor-pointer shadow-md"
             >
@@ -586,7 +581,6 @@ export const IndustryDetailPage: React.FC<IndustryDetailPageProps> = ({
             <button
               onClick={() => {
                 onNavigate('/industries');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 bg-transparent text-[#FAF8F5] text-xs font-manrope font-semibold tracking-widest uppercase rounded-[8px] hover:bg-white/5 transition-colors cursor-pointer border border-white/20"
             >
