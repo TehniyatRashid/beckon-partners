@@ -100,7 +100,6 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
               <button
                 onClick={() => {
                   onNavigate('/assessment');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="w-full py-2.5 rounded-xl text-xs font-mono font-bold bg-[#FAFAFA] hover:bg-zinc-100 text-zinc-900 border border-zinc-200 transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
