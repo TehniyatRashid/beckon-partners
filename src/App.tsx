@@ -34,7 +34,7 @@ export default function App() {
       if (hasSmooth) {
         html.classList.add('scroll-smooth');
       }
-    }, 100);
+    }, 250);
 
     return () => clearTimeout(timer);
   }, [currentRoute]);
