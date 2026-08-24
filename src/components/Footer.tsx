@@ -9,7 +9,6 @@ interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const handleNav = (route: RoutePath) => {
     onNavigate(route);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const industryLinks = [
@@ -25,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     { label: 'Home Overview', route: '/' },
     { label: 'Practice Industries', route: '/industries' },
     { label: 'About Us & Firm Philosophy', route: '/about' },
-    { label: 'Frequently Asked Questions', route: '/about' },
+    { label: 'Frequently Asked Questions', route: '/about#faq' },
     { label: 'Start Business Assessment', route: '/assessment' }
   ];
 
@@ -98,12 +97,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-[11px] font-manrope text-[#6A6C71] gap-4">
           <div>
             © {new Date().getFullYear()} BECKON PARTNERS CONSULTANCY. ALL RIGHTS RESERVED.
-          </div>
-          
-          <div className="flex items-center space-x-6 font-manrope">
-            <button onClick={() => handleNav('/assessment')} className="hover:text-white transition-colors cursor-pointer">PRIVACY</button>
-            <button onClick={() => handleNav('/assessment')} className="hover:text-white transition-colors cursor-pointer">TERMS</button>
-            <button onClick={() => handleNav('/assessment')} className="hover:text-white transition-colors cursor-pointer">SECURITY</button>
           </div>
         </div>
 
