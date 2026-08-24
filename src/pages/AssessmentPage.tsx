@@ -109,6 +109,29 @@ const INDUSTRY_PROFILES: Record<string, IndustryProfile> = {
 export const AssessmentPage: React.FC<AssessmentPageProps> = ({ onNavigate }) => {
   const containerRef = usePageScrollTriggers();
 
+  // Force scroll to top instantly on mount when layout stabilizes
+  useEffect(() => {
+    const html = document.documentElement;
+    const hasSmooth = html.classList.contains('scroll-smooth');
+    
+    // Disable smooth scroll temporarily
+    if (hasSmooth) {
+      html.classList.remove('scroll-smooth');
+    }
+    html.style.scrollBehavior = 'auto';
+
+    window.scrollTo(0, 0);
+
+    const timer = setTimeout(() => {
+      html.style.scrollBehavior = '';
+      if (hasSmooth) {
+        html.classList.add('scroll-smooth');
+      }
+    }, 250);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   // Multi-step index (1 to 11)
   const [currentStep, setCurrentStep] = useState<number>(1);
   const totalQuestions = 11;
