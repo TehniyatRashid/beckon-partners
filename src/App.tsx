@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { RoutePath } from './types';
+import { ScrollTrigger } from './utils/gsapSetup';
 
 // Layout Components
 import { Navbar } from './components/Navbar';
@@ -26,7 +27,19 @@ export default function App() {
     }
     html.style.scrollBehavior = 'auto';
 
+    // Clear GSAP ScrollTrigger scroll memory to prevent it from restoring scroll position
+    ScrollTrigger.clearScrollMemory();
+
+    // Reset scroll positions using multiple APIs to ensure compliance
     window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    // Fallback: scroll root element into view
+    const rootEl = document.getElementById('root');
+    if (rootEl) {
+      rootEl.scrollIntoView({ block: 'start', inline: 'nearest' });
+    }
 
     // Restore smooth scroll in the next tick
     const timer = setTimeout(() => {
