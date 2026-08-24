@@ -23,7 +23,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
     onNavigate(route);
     setMobileMenuOpen(false);
     setIndustriesDropdownOpen(false);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
