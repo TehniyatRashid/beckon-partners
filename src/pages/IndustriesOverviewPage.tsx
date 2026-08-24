@@ -112,7 +112,6 @@ export const IndustriesOverviewPage: React.FC<IndustriesOverviewPageProps> = ({ 
 
   const handleOpen = (slug: string) => {
     onNavigate(`/industries/${slug}` as RoutePath);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -257,7 +256,6 @@ export const IndustriesOverviewPage: React.FC<IndustriesOverviewPageProps> = ({ 
               <button
                 onClick={() => {
                   onNavigate('/assessment');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="inline-flex items-center justify-center px-7 py-4 bg-[#0B0C0E] text-white text-xs font-manrope font-bold tracking-wider uppercase rounded-[10px] hover:bg-[#856A41] transition-all cursor-pointer shadow-md hover:shadow-lg gap-2"
               >
@@ -356,7 +354,6 @@ export const IndustriesOverviewPage: React.FC<IndustriesOverviewPageProps> = ({ 
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0F1115] text-xs font-manrope font-bold tracking-widest uppercase rounded-[10px] hover:bg-[#EAEAEA] transition-colors cursor-pointer shadow-md"
             >
@@ -365,7 +362,6 @@ export const IndustriesOverviewPage: React.FC<IndustriesOverviewPageProps> = ({ 
             <button
               onClick={() => {
                 onNavigate('/about');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 bg-transparent text-[#FAF8F5] text-xs font-manrope font-semibold tracking-widest uppercase rounded-[10px] hover:bg-white/5 transition-colors cursor-pointer border border-white/20"
             >
