@@ -68,7 +68,6 @@ export const DiscoveryCallCtaSection: React.FC<DiscoveryCallCtaSectionProps> = (
           <button
             onClick={() => {
               onNavigate('/assessment');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className="w-full sm:w-auto px-8 py-4 rounded-full text-xs sm:text-sm font-semibold bg-white text-[#0B0C0E] hover:bg-[#C7A472] hover:text-[#0B0C0E] transition-all shadow-lg flex items-center justify-center gap-2.5 cursor-pointer group"
           >
@@ -79,7 +78,6 @@ export const DiscoveryCallCtaSection: React.FC<DiscoveryCallCtaSectionProps> = (
           <button
             onClick={() => {
               onNavigate('/about');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className="w-full sm:w-auto px-8 py-4 rounded-full text-xs sm:text-sm font-semibold bg-[#161820] text-white border border-white/15 hover:border-white/30 transition-all flex items-center justify-center cursor-pointer"
           >
