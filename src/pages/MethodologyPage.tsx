@@ -262,7 +262,6 @@ export const MethodologyPage: React.FC<MethodologyPageProps> = ({ onNavigate }) 
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-4 rounded-xl text-xs font-bold bg-zinc-900 hover:bg-[#C5A059] text-white hover:text-zinc-950 transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer"
             >
@@ -272,7 +271,6 @@ export const MethodologyPage: React.FC<MethodologyPageProps> = ({ onNavigate }) 
             <button
               onClick={() => {
                 onNavigate('/contact');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-4 rounded-xl text-xs font-bold border border-zinc-200 text-zinc-900 hover:bg-zinc-100 transition-all cursor-pointer"
             >
