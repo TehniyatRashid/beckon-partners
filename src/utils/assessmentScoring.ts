@@ -118,3 +118,4 @@ export const calculateDiagnosticScore = (input: DiagnosticScoreInput): Diagnosti
     deductions,
   };
 };
+
