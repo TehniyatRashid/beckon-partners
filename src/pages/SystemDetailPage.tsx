@@ -62,7 +62,6 @@ export const SystemDetailPage: React.FC<SystemDetailPageProps> = ({ systemSlug, 
         <button
           onClick={() => {
             onNavigate('/systems');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
           className="inline-flex items-center gap-2 text-xs font-bold text-zinc-600 hover:text-[#C5A059] mb-8 transition-colors cursor-pointer group"
         >
@@ -103,7 +102,6 @@ export const SystemDetailPage: React.FC<SystemDetailPageProps> = ({ systemSlug, 
                 <button
                   onClick={() => {
                     onNavigate('/assessment');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                   className="px-7 py-3.5 rounded-xl bg-zinc-900 text-white font-bold text-xs hover:bg-[#C5A059] hover:text-zinc-950 transition-all shadow-md flex items-center gap-2 cursor-pointer"
                 >
@@ -114,7 +112,6 @@ export const SystemDetailPage: React.FC<SystemDetailPageProps> = ({ systemSlug, 
                 <button
                   onClick={() => {
                     onNavigate('/contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                   className="px-6 py-3.5 rounded-xl border border-zinc-200 hover:bg-zinc-100 text-zinc-900 font-bold text-xs transition-all cursor-pointer"
                 >
@@ -405,7 +402,6 @@ export const SystemDetailPage: React.FC<SystemDetailPageProps> = ({ systemSlug, 
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-4 rounded-xl text-xs font-bold bg-zinc-900 hover:bg-[#C5A059] text-white hover:text-zinc-950 transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer"
             >
@@ -416,7 +412,6 @@ export const SystemDetailPage: React.FC<SystemDetailPageProps> = ({ systemSlug, 
             <button
               onClick={() => {
                 onNavigate('/contact');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-4 rounded-xl text-xs font-bold border border-zinc-200 text-zinc-900 hover:bg-zinc-100 transition-all cursor-pointer"
             >
