@@ -18,6 +18,7 @@ import {
   Plus
 } from 'lucide-react';
 import { usePageScrollTriggers } from '../hooks/useGsapScrollTrigger';
+import { ScrollTrigger } from '../utils/gsapSetup';
 
 interface AssessmentPageProps {
   onNavigate: (route: RoutePath) => void;
@@ -120,7 +121,18 @@ export const AssessmentPage: React.FC<AssessmentPageProps> = ({ onNavigate }) =>
     }
     html.style.scrollBehavior = 'auto';
 
+    // Clear GSAP scroll memory
+    ScrollTrigger.clearScrollMemory();
+
+    // Scroll resets
     window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    const rootEl = document.getElementById('root');
+    if (rootEl) {
+      rootEl.scrollIntoView({ block: 'start', inline: 'nearest' });
+    }
 
     const timer = setTimeout(() => {
       html.style.scrollBehavior = '';
