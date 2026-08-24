@@ -112,7 +112,6 @@ export const SystemsOverviewPage: React.FC<SystemsOverviewPageProps> = ({ onNavi
                     <button
                       onClick={() => {
                         onNavigate(`/systems/${sys.slug}` as RoutePath);
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
                       className="px-6 py-3 rounded-xl bg-zinc-900 text-white font-bold text-xs hover:bg-[#C5A059] hover:text-zinc-950 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md"
                     >
