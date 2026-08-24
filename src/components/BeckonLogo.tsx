@@ -33,27 +33,6 @@ export const BeckonLogo: React.FC<BeckonLogoProps> = ({
 
   return (
     <div className={`flex items-center gap-2.5 sm:gap-3 ${className}`}>
-      {/* Mathematical SVG Filter to extract black logo from white background */}
-      <svg width="0" height="0" className="absolute pointer-events-none">
-        <filter id="extract-black-logo" colorInterpolationFilters="sRGB">
-          {/* 1. Invert the image so the black logo becomes white and the white background becomes black */}
-          <feColorMatrix
-            in="SourceGraphic"
-            type="matrix"
-            values="-1 0 0 0 1
-                    0 -1 0 0 1
-                    0 0 -1 0 1
-                    0 0 0 1 0"
-            result="inverted"
-          />
-          {/* 2. Convert luminance to alpha. White pixels (the logo) become opaque. Black pixels (the background) become transparent. The RGB output is forced to black. */}
-          <feColorMatrix
-            in="inverted"
-            type="luminanceToAlpha"
-          />
-        </filter>
-      </svg>
-
       <img 
         src="/favicon.png" 
         alt="Beckon Partners Icon" 
