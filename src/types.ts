@@ -21,6 +21,7 @@ export type RoutePath =
   | '/assessment'
   | '/insights'
   | '/about'
+  | '/about#faq'
   | '/brandkit'
   | '/contact';
 
