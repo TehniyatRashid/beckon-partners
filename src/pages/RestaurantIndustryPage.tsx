@@ -50,7 +50,6 @@ export const RestaurantIndustryPage: React.FC<RestaurantIndustryPageProps> = ({ 
         <button
           onClick={() => {
             onNavigate('/industries');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
           className="inline-flex items-center gap-2 text-xs font-manrope font-bold text-[#52555C] hover:text-[#856A41] transition-colors cursor-pointer group"
         >
@@ -102,7 +101,6 @@ export const RestaurantIndustryPage: React.FC<RestaurantIndustryPageProps> = ({ 
               <button
                 onClick={() => {
                   onNavigate('/contact');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="px-7 py-3.5 rounded-[12px] text-xs font-bold bg-white/80 backdrop-blur-md text-[#0F1115] border border-[#E2DED6] hover:bg-[#F3F1ED] transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
@@ -679,7 +677,6 @@ export const RestaurantIndustryPage: React.FC<RestaurantIndustryPageProps> = ({ 
               <button
                 onClick={() => {
                   onNavigate('/assessment');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className="px-6 py-3 rounded-[12px] bg-white text-[#0B0C0E] hover:bg-[#C7A472] hover:text-white font-bold text-xs transition-colors flex items-center gap-2 cursor-pointer font-manrope"
               >
@@ -736,7 +733,6 @@ export const RestaurantIndustryPage: React.FC<RestaurantIndustryPageProps> = ({ 
             <button
               onClick={() => {
                 onNavigate('/assessment');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-4 rounded-[12px] text-xs sm:text-sm font-bold bg-[#0B0C0E] text-[#F6F4F0] hover:bg-[#856A41] hover:text-white transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer font-manrope"
             >
@@ -747,7 +743,6 @@ export const RestaurantIndustryPage: React.FC<RestaurantIndustryPageProps> = ({ 
             <button
               onClick={() => {
                 onNavigate('/contact');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="w-full sm:w-auto px-8 py-4 rounded-[12px] text-xs sm:text-sm font-bold border border-[#E2DED6] bg-white/80 backdrop-blur-md text-[#0F1115] hover:bg-[#F3F1ED] transition-all cursor-pointer font-manrope"
             >
