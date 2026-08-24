@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RoutePath } from './types';
 
 // Layout Components
@@ -15,10 +15,32 @@ import { AssessmentPage } from './pages/AssessmentPage';
 export default function App() {
   const [currentRoute, setCurrentRoute] = useState<RoutePath>('/');
 
-  // Scroll to top on route change
+  // Scroll to top on route change via useEffect after render/mount
+  useEffect(() => {
+    const html = document.documentElement;
+    const hasSmooth = html.classList.contains('scroll-smooth');
+    
+    // Disable smooth scroll temporarily
+    if (hasSmooth) {
+      html.classList.remove('scroll-smooth');
+    }
+    html.style.scrollBehavior = 'auto';
+
+    window.scrollTo(0, 0);
+
+    // Restore smooth scroll in the next tick
+    const timer = setTimeout(() => {
+      html.style.scrollBehavior = '';
+      if (hasSmooth) {
+        html.classList.add('scroll-smooth');
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [currentRoute]);
+
   const handleNavigate = (route: RoutePath) => {
     setCurrentRoute(route);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Render correct view based on route
@@ -42,9 +64,10 @@ export default function App() {
         return <IndustriesOverviewPage onNavigate={handleNavigate} />;
 
       case '/about':
+      case '/about#faq':
       case '/insights':
       case '/brandkit':
-        return <AboutPage onNavigate={handleNavigate} />;
+        return <AboutPage onNavigate={handleNavigate} currentRoute={currentRoute} />;
 
       case '/assessment':
       case '/contact':
