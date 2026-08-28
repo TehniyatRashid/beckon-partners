@@ -34,19 +34,19 @@ export const IndustriesWeServeSection: React.FC<IndustriesWeServeSectionProps> =
       id: 'delivery-logistics',
       title: 'Delivery & Logistics',
       subheading: 'Fleet Dispatch, Invoicing & Delivery Tracking',
-      image: '/images/industries/logistics-hero.png'
+      image: '/images/industries/logistics-hero.jpg'
     },
     {
       id: 'retail',
       title: 'Retail & Multi-Site Commerce',
       subheading: 'Omnichannel Stock Flow & Store Performance',
-      image: '/images/industries/retail-hero.png'
+      image: '/images/industries/retail-hero.jpg'
     },
     {
       id: 'professional-services',
       title: 'Professional Services',
       subheading: 'Client Onboarding, Scope Control & Billing Cycles',
-      image: '/images/industries/professional-services-hero.png'
+      image: '/images/industries/professional-services-hero.jpg'
     },
     {
       id: 'hospitality',
