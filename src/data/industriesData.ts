@@ -239,7 +239,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'DELIVERY & FLEET',
       suffix: 'LOGISTICS'
     },
-    heroImage: '/images/industries/logistics-hero.jpg',
+    heroImage: '/images/industries/logistics-hero.png',
     teamImage1: 'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -341,7 +341,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'OMNICHANNEL RETAIL',
       suffix: 'SYSTEMS'
     },
-    heroImage: '/images/industries/retail-hero.jpg',
+    heroImage: '/images/industries/retail-hero.png',
     teamImage1: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80',
     corePillars: [
@@ -443,7 +443,7 @@ export const INDUSTRIES: Industry[] = [
       highlight: 'PROFESSIONAL SERVICES',
       suffix: 'SYSTEMS'
     },
-    heroImage: '/images/industries/professional-services-hero.jpg',
+    heroImage: '/images/industries/professional-services-hero.png',
     teamImage1: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
     teamImage2: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
     corePillars: [
