@@ -130,8 +130,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85',
-    pauseImageAlt: 'Restaurant culinary team preparing service with precision'
+    pauseImage: '/images/industries/restaurants-pause.png',
+    pauseImageAlt: 'Group of friends dining and celebrating inside a cozy, warm restaurant setting'
   },
 
   logistics: {
@@ -144,8 +144,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       line2: 'Deliveries Moving.'
     },
     heroDescription: 'When bookings, dispatch, drivers, customers and billing operate across disconnected processes, small delays become expensive. Beckon connects the systems behind the operation so the business can move with greater clarity and control.',
-    heroImage: '/images/industries/logistics-hero.jpg',
-    heroImageAlt: 'Logistics fleet and warehouse operations in motion',
+    heroImage: '/images/industries/logistics-hero.png',
+    heroImageAlt: 'Delivery truck with text Keep the wheels turning backing out of a warehouse dock',
     
     realityEyebrow: 'THE REALITY',
     realityHeadline: "The Pressure Isn't Always Visible.",
@@ -218,8 +218,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1800&q=85',
-    pauseImageAlt: 'Fleet transport moving efficiently along highway at twilight'
+    pauseImage: '/images/industries/logistics-pause.jpg',
+    pauseImageAlt: 'Delivery driver in red uniform standing by black delivery vans and cardboard packages'
   },
 
   construction: {
@@ -233,7 +233,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
     },
     heroDescription: 'Construction businesses manage moving parts every day — from job site teams and estimating to material costs, subcontractor schedules and client communications. Beckon connects the systems behind your projects so you can protect margins and build with certainty.',
     heroImage: '/images/industries/construction-hero.jpg',
-    heroImageAlt: 'Architectural construction project site and engineers',
+    heroImageAlt: 'Construction crew workers standing on scaffolding and consulting architectural blueprints',
     
     realityEyebrow: 'THE REALITY',
     realityHeadline: "The Pressure Isn't Always Visible.",
@@ -306,8 +306,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1800&q=85',
-    pauseImageAlt: 'Modern architectural structure under construction'
+    pauseImage: '/images/industries/construction-pause.png',
+    pauseImageAlt: 'Construction worker drilling the ground at a busy building project site',
   },
 
   retail: {
@@ -320,8 +320,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       line2: 'Every Store.'
     },
     heroDescription: 'Multi-location retail demands seamless alignment between customer sales, inventory flow, staffing, and store performance. Beckon connects your retail operations so each location operates with identical precision and complete visibility.',
-    heroImage: '/images/industries/retail-hero.jpg',
-    heroImageAlt: 'Premium retail storefront and curated merchandise display',
+    heroImage: '/images/industries/retail-hero.png',
+    heroImageAlt: 'Fashion model showcasing clothes in a minimalist boutique showroom',
     
     realityEyebrow: 'THE REALITY',
     realityHeadline: "The Pressure Isn't Always Visible.",
@@ -394,8 +394,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1800&q=85',
-    pauseImageAlt: 'Interior architectural view of an organized boutique store'
+    pauseImage: '/images/industries/retail-pause.png',
+    pauseImageAlt: 'Creative model styling and photographing outfit layout in a fashion design studio'
   },
 
   hospitality: {
@@ -496,8 +496,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       line2: 'Less Operational Friction.'
     },
     heroDescription: 'Consultancies, legal practices and professional firms thrive on expertise, but often stall on manual client onboarding, untracked time, fragmented communications and delayed billing. Beckon connects your practice workflows so fee-earners can focus on delivery.',
-    heroImage: '/images/industries/professional-services-hero.jpg',
-    heroImageAlt: 'Modern professional consulting boardroom and architectural office space',
+    heroImage: '/images/industries/professional-services-hero.png',
+    heroImageAlt: 'Female leader presenting charts and data to her corporate team around a conference table',
     
     realityEyebrow: 'THE REALITY',
     realityHeadline: "The Pressure Isn't Always Visible.",
@@ -570,8 +570,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85',
-    pauseImageAlt: 'Architectural corporate glass tower reflecting clean sky'
+    pauseImage: '/images/industries/professional-services-pause.png',
+    pauseImageAlt: 'Female consultant smiling at desk with project blueprints and layouts',
   }
 };
 
