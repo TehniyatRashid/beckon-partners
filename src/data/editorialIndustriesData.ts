@@ -130,7 +130,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: '/images/industries/restaurants-pause.png',
+    pauseImage: '/images/industries/restaurants-pause.jpg',
     pauseImageAlt: 'Group of friends dining and celebrating inside a cozy, warm restaurant setting'
   },
 
@@ -144,7 +144,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       line2: 'Deliveries Moving.'
     },
     heroDescription: 'When bookings, dispatch, drivers, customers and billing operate across disconnected processes, small delays become expensive. Beckon connects the systems behind the operation so the business can move with greater clarity and control.',
-    heroImage: '/images/industries/logistics-hero.png',
+    heroImage: '/images/industries/logistics-hero.jpg',
     heroImageAlt: 'Delivery truck with text Keep the wheels turning backing out of a warehouse dock',
     
     realityEyebrow: 'THE REALITY',
@@ -306,7 +306,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: '/images/industries/construction-pause.png',
+    pauseImage: '/images/industries/construction-pause.jpg',
     pauseImageAlt: 'Construction worker drilling the ground at a busy building project site',
   },
 
@@ -320,7 +320,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       line2: 'Every Store.'
     },
     heroDescription: 'Multi-location retail demands seamless alignment between customer sales, inventory flow, staffing, and store performance. Beckon connects your retail operations so each location operates with identical precision and complete visibility.',
-    heroImage: '/images/industries/retail-hero.png',
+    heroImage: '/images/industries/retail-hero.jpg',
     heroImageAlt: 'Fashion model showcasing clothes in a minimalist boutique showroom',
     
     realityEyebrow: 'THE REALITY',
@@ -394,7 +394,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: '/images/industries/retail-pause.png',
+    pauseImage: '/images/industries/retail-pause.jpg',
     pauseImageAlt: 'Creative model styling and photographing outfit layout in a fashion design studio'
   },
 
@@ -496,7 +496,7 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       line2: 'Less Operational Friction.'
     },
     heroDescription: 'Consultancies, legal practices and professional firms thrive on expertise, but often stall on manual client onboarding, untracked time, fragmented communications and delayed billing. Beckon connects your practice workflows so fee-earners can focus on delivery.',
-    heroImage: '/images/industries/professional-services-hero.png',
+    heroImage: '/images/industries/professional-services-hero.jpg',
     heroImageAlt: 'Female leader presenting charts and data to her corporate team around a conference table',
     
     realityEyebrow: 'THE REALITY',
@@ -570,8 +570,8 @@ export const EDITORIAL_INDUSTRIES: Record<string, EditorialIndustryData> = {
       }
     ],
 
-    pauseImage: '/images/industries/professional-services-pause.png',
-    pauseImageAlt: 'Female consultant smiling at desk with project blueprints and layouts',
+    pauseImage: '/images/industries/professional-services-pause.jpg',
+    pauseImageAlt: 'Group of professional consultants sitting around a conference table in a modern office looking at plans, with a window showing a city skyline view',
   }
 };
 
